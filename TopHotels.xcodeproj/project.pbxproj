@@ -79,6 +79,9 @@
 		DDFC58D327F328D200656880 = {
 			isa = PBXGroup;
 			children = (
+				DDFC590F27F328F300656880 /* Model */,
+				DDFC591027F328FC00656880 /* View */,
+				DDFC591127F3290400656880 /* Controller */,
 				DDFC58DE27F328D200656880 /* TopHotels */,
 				DDFC58F527F328D300656880 /* TopHotelsTests */,
 				DDFC58FF27F328D300656880 /* TopHotelsUITests */,
@@ -101,8 +104,6 @@
 			children = (
 				DDFC58DF27F328D200656880 /* AppDelegate.swift */,
 				DDFC58E127F328D200656880 /* SceneDelegate.swift */,
-				DDFC58E327F328D200656880 /* ViewController.swift */,
-				DDFC58E527F328D200656880 /* Main.storyboard */,
 				DDFC58E827F328D300656880 /* Assets.xcassets */,
 				DDFC58EA27F328D300656880 /* LaunchScreen.storyboard */,
 				DDFC58ED27F328D300656880 /* Info.plist */,
@@ -125,6 +126,29 @@
 				DDFC590227F328D300656880 /* TopHotelsUITestsLaunchTests.swift */,
 			);
 			path = TopHotelsUITests;
+			sourceTree = "<group>";
+		};
+		DDFC590F27F328F300656880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDFC591027F328FC00656880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC58E527F328D200656880 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDFC591127F3290400656880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC58E327F328D200656880 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
