@@ -9,9 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var welcomeBackground: UIImageView!
+    @IBOutlet var welcomeLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        
+        welcomeLabel.text = "Welcome to the Best Booking App"
+        
+        welcomeBackground.image = #imageLiteral(resourceName: "background")
+        
+        
     }
 
 
