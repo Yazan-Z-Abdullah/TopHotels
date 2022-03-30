@@ -25,5 +25,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func startBookingPressed(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier:"goToSearchScreen", sender: self)
+        
+    }
 }
 
