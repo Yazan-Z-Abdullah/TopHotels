@@ -79,7 +79,6 @@
 		DDFC58D327F328D200656880 = {
 			isa = PBXGroup;
 			children = (
-				DDFC590F27F328F300656880 /* Model */,
 				DDFC591027F328FC00656880 /* View */,
 				DDFC591127F3290400656880 /* Controller */,
 				DDFC58DE27F328D200656880 /* TopHotels */,
@@ -126,13 +125,6 @@
 				DDFC590227F328D300656880 /* TopHotelsUITestsLaunchTests.swift */,
 			);
 			path = TopHotelsUITests;
-			sourceTree = "<group>";
-		};
-		DDFC590F27F328F300656880 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		DDFC591027F328FC00656880 /* View */ = {
@@ -459,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V3U8HJ3RC;
@@ -487,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V3U8HJ3RC;
