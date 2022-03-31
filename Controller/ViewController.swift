@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet var welcomeLabel: UILabel!
     
     
+
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+
         welcomeLabel.text = "Welcome to the Best Booking App"
         
         welcomeBackground.image = #imageLiteral(resourceName: "background")

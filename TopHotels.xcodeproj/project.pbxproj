@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD763F3E27F58712001938F0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD763F3D27F58712001938F0 /* ResultViewController.swift */; };
+		DD763F4127F58A8B001938F0 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD763F3F27F58A8B001938F0 /* HotelTableViewCell.swift */; };
+		DD763F4227F58A8B001938F0 /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD763F4027F58A8B001938F0 /* HotelTableViewCell.xib */; };
 		DDCF606F27F48B7D00741FD1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCF606E27F48B7D00741FD1 /* SearchViewController.swift */; };
 		DDFC58E027F328D200656880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC58DF27F328D200656880 /* AppDelegate.swift */; };
 		DDFC58E227F328D200656880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC58E127F328D200656880 /* SceneDelegate.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD763F3D27F58712001938F0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DD763F3F27F58A8B001938F0 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		DD763F4027F58A8B001938F0 /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
 		DDCF606E27F48B7D00741FD1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DDFC58DC27F328D200656880 /* TopHotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopHotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC58DF27F328D200656880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DDFC58E527F328D200656880 /* Main.storyboard */,
+				DD763F4027F58A8B001938F0 /* HotelTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +157,8 @@
 			children = (
 				DDFC58E327F328D200656880 /* ViewController.swift */,
 				DDCF606E27F48B7D00741FD1 /* SearchViewController.swift */,
+				DD763F3D27F58712001938F0 /* ResultViewController.swift */,
+				DD763F3F27F58A8B001938F0 /* HotelTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 			files = (
 				DDFC58EC27F328D300656880 /* LaunchScreen.storyboard in Resources */,
 				DDFC58E927F328D300656880 /* Assets.xcassets in Resources */,
+				DD763F4227F58A8B001938F0 /* HotelTableViewCell.xib in Resources */,
 				DDFC58E727F328D200656880 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD763F4127F58A8B001938F0 /* HotelTableViewCell.swift in Sources */,
+				DD763F3E27F58712001938F0 /* ResultViewController.swift in Sources */,
 				DDFC58E427F328D200656880 /* ViewController.swift in Sources */,
 				DDFC58E027F328D200656880 /* AppDelegate.swift in Sources */,
 				DDCF606F27F48B7D00741FD1 /* SearchViewController.swift in Sources */,

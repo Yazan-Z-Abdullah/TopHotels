@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "exteriorview300x200.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
