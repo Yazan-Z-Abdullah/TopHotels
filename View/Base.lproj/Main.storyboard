@@ -52,7 +52,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G0T-bz-fQS" secondAttribute="trailing" constant="73" id="wP9-B1-eG6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="44w-vw-bh4"/>
+                    <navigationItem key="navigationItem" id="44w-vw-bh4">
+                        <barButtonItem key="backBarButtonItem" title=" " id="UKw-Fx-xrO"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="welcomeBackground" destination="Jxf-kU-2vp" id="MKS-rl-M4y"/>
                         <outlet property="welcomeLabel" destination="G0T-bz-fQS" id="PWA-iS-z6u"/>
@@ -77,71 +79,39 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alv-53-8Qk">
-                                <rect key="frame" x="349" y="232" width="45.5" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" title="">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover your " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqq-Vw-1NV">
                                 <rect key="frame" x="20" y="128" width="223" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kTO-sE-MkM">
-                                <rect key="frame" x="20" y="232" width="321" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfN-t9-jqG">
-                                <rect key="frame" x="347.5" y="288" width="47" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="calendar" catalog="system" title="">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FQ2-T7-OF1">
-                                <rect key="frame" x="220.5" y="288" width="119" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EJS-hV-DY0">
-                                <rect key="frame" x="20" y="287" width="125" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="vmK-qR-n0b"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.left.arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bLd-pa-XH1">
-                                <rect key="frame" x="172.5" y="293" width="20.5" height="22"/>
-                                <color key="tintColor" red="0.94089288839999996" green="0.67288398230000002" blue="0.30656073410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwh-2J-dk8">
-                                <rect key="frame" x="349.5" y="346" width="45" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="person.crop.circle.fill" catalog="system" title="">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wIG-i0-JPO">
-                                <rect key="frame" x="21" y="347" width="320.5" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
-                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hfE-0y-RBD">
+                                <rect key="frame" x="20" y="216" width="374" height="34"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xqp-sq-k5v">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kTO-sE-MkM">
+                                                <rect key="frame" x="0.0" y="0.0" width="328.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alv-53-8Qk">
+                                                <rect key="frame" x="328.5" y="0.0" width="45.5" height="34"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" title="">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwu-1y-ILR">
-                                <rect key="frame" x="20" y="411" width="374" height="37"/>
+                                <rect key="frame" x="20" y="265" width="374" height="37"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Search">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
@@ -152,53 +122,28 @@
                                     <action selector="startBookingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jtc-vl-fBf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2L4-pH-HB4">
-                                <rect key="frame" x="20" y="498" width="276" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3II-JI-koS"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="lfN-t9-jqG" secondAttribute="trailing" constant="19.5" id="2yt-Ee-pTQ"/>
-                            <constraint firstItem="2L4-pH-HB4" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="2yv-so-k7v"/>
-                            <constraint firstItem="bLd-pa-XH1" firstAttribute="top" secondItem="kTO-sE-MkM" secondAttribute="bottom" constant="28" id="4dG-wB-pvK"/>
-                            <constraint firstItem="iwh-2J-dk8" firstAttribute="top" secondItem="EJS-hV-DY0" secondAttribute="bottom" constant="25" id="5Ay-gj-nMt"/>
-                            <constraint firstItem="lfN-t9-jqG" firstAttribute="top" secondItem="Alv-53-8Qk" secondAttribute="bottom" constant="25" id="5ZZ-Le-9Kg"/>
                             <constraint firstItem="eqq-Vw-1NV" firstAttribute="top" secondItem="3II-JI-koS" secondAttribute="top" constant="40" id="83J-FE-BLn"/>
-                            <constraint firstItem="Alv-53-8Qk" firstAttribute="top" secondItem="3II-JI-koS" secondAttribute="top" constant="144" id="9Ex-04-6Vv"/>
-                            <constraint firstItem="FQ2-T7-OF1" firstAttribute="top" secondItem="kTO-sE-MkM" secondAttribute="bottom" constant="22" id="EQM-7w-TUS"/>
-                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="Alv-53-8Qk" secondAttribute="trailing" constant="19.5" id="Fwc-Te-nWG"/>
-                            <constraint firstItem="lfN-t9-jqG" firstAttribute="leading" secondItem="FQ2-T7-OF1" secondAttribute="trailing" constant="8" id="Hvb-Xa-C7A"/>
-                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="iwh-2J-dk8" secondAttribute="trailing" constant="19.5" id="Iva-qv-aYI"/>
-                            <constraint firstItem="EJS-hV-DY0" firstAttribute="leading" secondItem="kTO-sE-MkM" secondAttribute="leading" id="KTH-cK-zXU"/>
-                            <constraint firstItem="wIG-i0-JPO" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="21" id="MRx-Bv-FvJ"/>
-                            <constraint firstItem="kTO-sE-MkM" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="MuX-QE-ANJ"/>
-                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="2L4-pH-HB4" secondAttribute="trailing" constant="118" id="Ndt-UF-Ho1"/>
-                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="dwu-1y-ILR" secondAttribute="trailing" constant="20" id="ON8-GE-w0S"/>
+                            <constraint firstItem="hfE-0y-RBD" firstAttribute="top" secondItem="ag3-ch-Ua6" secondAttribute="bottom" constant="8" symbolic="YES" id="9xt-we-mqf"/>
+                            <constraint firstItem="hfE-0y-RBD" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="Kgl-WZ-zAJ"/>
+                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="dwu-1y-ILR" secondAttribute="trailing" constant="20" id="M4b-8E-8jC"/>
                             <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="ag3-ch-Ua6" secondAttribute="trailing" constant="118" id="P7m-8F-DvE"/>
-                            <constraint firstItem="FQ2-T7-OF1" firstAttribute="leading" secondItem="bLd-pa-XH1" secondAttribute="trailing" constant="27.5" id="VKD-Nd-6Sa"/>
-                            <constraint firstItem="bLd-pa-XH1" firstAttribute="leading" secondItem="EJS-hV-DY0" secondAttribute="trailing" constant="27.5" id="W5V-Hr-1EV"/>
                             <constraint firstItem="ag3-ch-Ua6" firstAttribute="top" secondItem="eqq-Vw-1NV" secondAttribute="bottom" constant="8" symbolic="YES" id="bKh-x9-jHm"/>
-                            <constraint firstItem="Alv-53-8Qk" firstAttribute="leading" secondItem="kTO-sE-MkM" secondAttribute="trailing" constant="8" id="bo4-43-1SB"/>
-                            <constraint firstItem="dwu-1y-ILR" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="d8P-Qt-bNf"/>
-                            <constraint firstItem="iwh-2J-dk8" firstAttribute="leading" secondItem="wIG-i0-JPO" secondAttribute="trailing" constant="8" id="dys-da-lkI"/>
                             <constraint firstItem="eqq-Vw-1NV" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="fTa-AX-Jaq"/>
                             <constraint firstItem="ag3-ch-Ua6" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="fsR-ze-dwv"/>
-                            <constraint firstItem="2L4-pH-HB4" firstAttribute="top" secondItem="dwu-1y-ILR" secondAttribute="bottom" constant="50" id="k4y-pm-RMu"/>
-                            <constraint firstItem="kTO-sE-MkM" firstAttribute="top" secondItem="ag3-ch-Ua6" secondAttribute="bottom" constant="24" id="mPC-Ih-lsU"/>
-                            <constraint firstItem="wIG-i0-JPO" firstAttribute="top" secondItem="FQ2-T7-OF1" secondAttribute="bottom" constant="25" id="obU-M7-W2k"/>
-                            <constraint firstItem="EJS-hV-DY0" firstAttribute="centerY" secondItem="bLd-pa-XH1" secondAttribute="centerY" id="piN-yu-oMa"/>
-                            <constraint firstItem="dwu-1y-ILR" firstAttribute="top" secondItem="wIG-i0-JPO" secondAttribute="bottom" constant="30" id="rKU-1R-cap"/>
+                            <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="hfE-0y-RBD" secondAttribute="trailing" constant="20" id="hle-EE-zQc"/>
+                            <constraint firstItem="dwu-1y-ILR" firstAttribute="leading" secondItem="3II-JI-koS" secondAttribute="leading" constant="20" id="iHO-o7-pwY"/>
+                            <constraint firstItem="dwu-1y-ILR" firstAttribute="top" secondItem="hfE-0y-RBD" secondAttribute="bottom" constant="15" id="pnh-Bc-x38"/>
                             <constraint firstItem="3II-JI-koS" firstAttribute="trailing" secondItem="eqq-Vw-1NV" secondAttribute="trailing" constant="171" id="zJ2-3j-K38"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="GjX-8F-pWz"/>
+                    <navigationItem key="navigationItem" id="GjX-8F-pWz">
+                        <barButtonItem key="backBarButtonItem" title=" " id="KEh-GN-9Gy"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="firstDate" destination="EJS-hV-DY0" id="Kpv-K9-bTt"/>
-                        <outlet property="lastDate" destination="FQ2-T7-OF1" id="ARf-MR-6vd"/>
                         <segue destination="9pq-4N-ubc" kind="show" identifier="goToTheResult" id="xDN-1a-hD7"/>
                     </connections>
                 </viewController>
@@ -237,14 +182,16 @@
                             <constraint firstItem="TE3-Le-fld" firstAttribute="trailing" secondItem="ZWh-oT-Jal" secondAttribute="trailing" constant="20" id="w8G-ge-ERa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="szC-Go-vTJ"/>
+                    <navigationItem key="navigationItem" id="szC-Go-vTJ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="o9s-LH-4Nx"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="ZWh-oT-Jal" id="mMf-Fo-ZsK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qdv-oS-vST" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3410.144927536232" y="121.875"/>
+            <point key="canvasLocation" x="3606" y="106"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JLj-2k-dN1">
@@ -266,10 +213,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.left.arrow.right" catalog="system" width="119" height="128"/>
-        <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

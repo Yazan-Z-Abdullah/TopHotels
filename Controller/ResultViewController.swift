@@ -23,7 +23,7 @@ class ResultViewController: UIViewController {
     
     var hotels: [Hotel] = [
         Hotel(hotelName: "Helton", hotelPrice: "100$" , hotelLocation: "Amman", hotelRate: "4.8",hotelImage: #imageLiteral(resourceName: "helton")),
-        Hotel(hotelName: "Movinpik", hotelPrice: "200$" , hotelLocation: "Deadsea", hotelRate: "4.6",hotelImage: #imageLiteral(resourceName: "movinpick")),
+        Hotel(hotelName: "Movinpick", hotelPrice: "200$" , hotelLocation: "Deadsea", hotelRate: "4.6",hotelImage: #imageLiteral(resourceName: "movinpick")),
         Hotel(hotelName: "Royal", hotelPrice: "300$" , hotelLocation: "Jabal amman", hotelRate: "4.9",hotelImage: #imageLiteral(resourceName: "royal")),
 
     ]

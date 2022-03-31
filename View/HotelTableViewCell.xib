@@ -16,9 +16,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="508" height="247"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CGW-Y2-xo5">
-                        <rect key="frame" x="20" y="22.5" width="217" height="202"/>
-                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5XC-Z4-mXt">
                         <rect key="frame" x="253" y="48" width="123" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -47,15 +44,17 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CGW-Y2-xo5">
+                        <rect key="frame" x="0.0" y="22.5" width="237" height="202"/>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="CGW-Y2-xo5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="6yR-2p-nlt"/>
-                    <constraint firstAttribute="bottom" secondItem="CGW-Y2-xo5" secondAttribute="bottom" constant="22.5" id="VSD-Vd-goH"/>
-                    <constraint firstItem="5XC-Z4-mXt" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="b4i-bd-cbF"/>
-                    <constraint firstItem="E6U-CL-cAk" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="bTV-V4-QWx"/>
-                    <constraint firstItem="9jG-Jc-tDw" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="gJj-pz-tJB"/>
-                    <constraint firstItem="XAD-Il-2bu" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="iYg-8v-6ZR"/>
-                    <constraint firstItem="CGW-Y2-xo5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22.5" id="uGt-w9-RWO"/>
+                    <constraint firstItem="CGW-Y2-xo5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Clm-Fs-AVg"/>
+                    <constraint firstItem="XAD-Il-2bu" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="U5N-B3-h0N"/>
+                    <constraint firstItem="E6U-CL-cAk" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="Zyb-E0-yGP"/>
+                    <constraint firstAttribute="bottom" secondItem="CGW-Y2-xo5" secondAttribute="bottom" constant="22.5" id="fyi-ZD-CNU"/>
+                    <constraint firstItem="CGW-Y2-xo5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22.5" id="kEy-jY-fnv"/>
+                    <constraint firstItem="9jG-Jc-tDw" firstAttribute="leading" secondItem="CGW-Y2-xo5" secondAttribute="trailing" constant="16" id="vzB-3O-MB9"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
